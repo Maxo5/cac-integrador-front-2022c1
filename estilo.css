@@ -5,10 +5,12 @@
     background-size: cover;
 }
 
-#parrafo{
-    padding-left: 60%;
-    padding-right: 5%;
-    text-align: end;
+@media only screen and (min-width: 600px) {
+    #parrafo{
+        padding-left: 60%;
+        padding-right: 5%;
+        text-align: end;
+    }
 }
 
 #conf{
@@ -46,12 +48,4 @@
 
 body{
     overflow-x: hidden;
-}
-
-#colada{
-    margin-left: -2%;
-}
-
-#colsteve{
-    padding-left: 8%;
 }

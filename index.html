@@ -15,18 +15,23 @@
 
 <body>
     <div class="row">
-        <nav class="navbar bg-dark">
+        <nav class="navbar-dark bg-dark navbar-expand-md">
             <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand text-white" href="#"><img height=60 width=100 src="img/codoacodo.png"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand text-white mx-5" href="#"><img height=60 width=100 src="img/codoacodo.png"
                             alt="Codo a Codo">Conf Bs As</a>
-                </div>
-                <div class="navbar nav">
-                    <a class="nav-item nav-link active text-white" href="#">La conferencia</a>
-                    <a class="nav-item nav-link text-secondary" href="#">Los oradores</a>
-                    <a class="nav-item nav-link text-secondary" href="#">El lugar y la fecha</a>
-                    <a class="nav-item nav-link text-secondary" href="#">Conviértete en orador</a>
-                    <a class="nav-item nav-link text-success font-weight-bold" href="#">Comprar tickets</a>
+                    <div class="navbar nav">
+                        <a class="nav-item nav-link active text-white" href="#">La conferencia</a>
+                        <a class="nav-item nav-link text-secondary" href="#">Los oradores</a>
+                        <a class="nav-item nav-link text-secondary" href="#">El lugar y la fecha</a>
+                        <a class="nav-item nav-link text-secondary" href="#">Conviértete en orador</a>
+                        <a class="nav-item nav-link text-success font-weight-bold" href="#">Comprar tickets</a>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -55,8 +60,8 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-4" id="colsteve">
-                <div class="card" style="width:300px">
+            <div class="col-sm-4">
+                <div class="card" style="width:100%">
                     <img class="card-img-top" src="img/steve.jpg" alt="Steve">
                     <div class="card-body">
                         <div class="card-text">
@@ -72,8 +77,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4 m-0">
-                <div class="card mx-auto" style="width:300px">
+            <div class="col-sm-4">
+                <div class="card" style="width:100%">
                     <img class="card-img-top" src="img/bill.jpg" alt="Bill">
                     <div class="card-body">
                         <div class="card-text">
@@ -89,8 +94,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4" id="colada">
-                <div class="card" style="width:300px">
+            <div class="col-sm-4">
+                <div class="card" style="width:100%">
                     <img class="card-img-top" src="img/ada.jpeg" alt="Ada">
                     <div class="card-body">
                         <div class="card-text">
@@ -113,7 +118,7 @@
         <div class="col-sm-6 border border-primary p-0">
             <img class="img-fluid" src="img/honolulu.jpg" alt="Honolulu">
         </div>
-        <div class="col-sm-6 boder bg-secondary pt-3 text-white">
+        <div class="col-sm-6 boder pt-3 text-white" style="background-color:rgb(65, 65, 70)">
             <h3 mt-3>Bs As - Octubre</h2>
                 <p><small>Buenos Aires es la provincia y localidad más grande del estado de Argentina en Estados
                         Unidos. Honolulu
@@ -154,7 +159,7 @@
             </div>
             <div class="row mt-3 mb-3">
                 <div class="col" id="boton">
-                    <button type="button" class="w-100 btn btn-lg bg-success">Enviar</button>
+                    <button type="button" class="w-100 btn text-white" style="background-color: #91be26">Enviar</button>
                 </div>
             </div>
         </form>
