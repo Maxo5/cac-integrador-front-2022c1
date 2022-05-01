@@ -1,0 +1,45 @@
+#castillo{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/hawaii.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parrafo{
+    padding-left: 60%;
+    padding-right: 5%;
+    text-align: end;
+}
+
+#conf{
+    padding-right: 5%;
+    padding-top: 10%;
+    text-align: end;
+    font-weight: bolder;
+}
+
+#botones{
+    padding-right: 5%;
+}
+
+#botoncompra{
+    background-color: #21aa4a;
+}
+
+#nomform{
+    margin-left: 23%;
+}
+
+#apform{
+    margin-right: 23%;
+}
+
+#tema{
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+#boton{
+    margin-left: 23%;
+    margin-right: 23%;
+}
