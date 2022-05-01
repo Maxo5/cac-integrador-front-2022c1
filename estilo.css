@@ -43,3 +43,15 @@
     margin-left: 23%;
     margin-right: 23%;
 }
+
+body{
+    overflow-x: hidden;
+}
+
+#colada{
+    margin-left: -2%;
+}
+
+#colsteve{
+    padding-left: 8%;
+}
