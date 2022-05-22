@@ -49,3 +49,27 @@
 body{
     overflow-x: hidden;
 }
+
+#mail{
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+.cant{
+    margin-left: 23%;
+}
+
+.cat{
+    margin-right: 23%;
+}
+
+.total{
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+#total{
+    background-color: #cce5ff !important;
+    color: #08468a !important;
+    border: 0px !important;
+}
